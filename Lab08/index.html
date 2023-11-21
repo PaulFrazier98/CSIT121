@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Favorite Recipe</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <h1>My Favorite Recipe</h1>
+            <h2>The Best Spaghetti Carbonara</h2>
+        </header>
+        <div class="side-by-side-boxes">
+            <div class="ingredients">
+                <h2>Ingredients:</h2>
+                <ul>
+                    <li>8 ounces (225 grams) spaghetti</li>
+                    <li>2 large eggs</li>
+                    <li>1 cup (100 grams) grated Pecorino Romano cheese</li>
+                    <li>4 ounces (115 grams) guanciale or pancetta, diced</li>
+                    <li>2 cloves garlic, minced</li>
+                    <li>Salt and freshly ground black pepper to taste</li>
+                    <li>Fresh parsley, chopped (for garnish)</li>
+                </ul>
+            </div>
+            <div class="instructions">
+                <h2>Instructions:</h2>
+                <ol>
+                    <li>Bring a large pot of salted water to a boil. Cook spaghetti according to package instructions until al dente. Drain and set aside.</li>
+                </ol>
+            </div>
+        </div>
+
+        <!-- Nutritional Table -->
+        <table class="nutritional-table">
+            <caption>Nutritional Information</caption>
+            <tr>
+                <th>Ingredient</th>
+                <th>Amount</th>
+            </tr>
+            <tr>
+                <td>Spaghetti</td>
+                <td>8 ounces (225g)</td>
+            </tr>
+            <tr>
+                <td>Large Eggs</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Pecorino Romano Cheese</td>
+                <td>1 cup (100g)</td>
+            </tr>
+            <tr>
+                <td>Guanciale or Pancetta</td>
+                <td>4 ounces (115g)</td>
+            </tr>
+            <tr>
+                <td>Garlic</td>
+                <td>2 cloves, minced</td>
+            </tr>
+            <tr>
+                <td>Salt and Pepper</td>
+                <td>To taste</td>
+            </tr>
+        </table>
+
+        <div class="bottom-box">
+            <p>This is my all-time favorite recipe because it's a classic Italian dish that never fails to impress. The combination of creamy egg and cheese sauce with crispy guanciale and perfectly cooked pasta is simply irresistible!</p>
+            <p>For more delicious recipes, check out <a href="https://www.allrecipes.com" target="_blank">AllRecipes.com</a>.</p>
+        </div>
+
+        <div class="contact-form">
+            <h2>Contact Us</h2>
+            <form action="#" method="post">
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" name="fname" required>
+
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="lname" required>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="cuisine">Favorite Cuisines:</label>
+                <select id="cuisine" name="cuisine" multiple>
+                    <option value="jamaican">Jamaican</option>
+                    <option value="mexican">Mexican</option>
+                    <option value="german">German</option>
+                    <option value="chinese">Chinese</option>
+                    <option value="indian">Indian</option>
+                    <option value="italian">Italian</option>
+                    <option value="thai">Thai</option>
+                </select>
+
+                <label>Subscribe to Mailing List:</label>
+                <input type="radio" id="yes" name="subscribe" value="yes" checked>
+                <label for="yes">Yes</label>
+                <input type="radio" id="no" name="subscribe" value="no">
+                <label for="no">No</label>
+
+                <div class="buttons">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <img src="https://www.publicdomainpictures.net/pictures/230000/velka/taormina-italy-14980063948Ii.jpg" alt="Taormina, Italy" width="400" height="300">
+
+</body>
+
+</html>
